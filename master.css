@@ -1,4 +1,99 @@
+/* General Styles */
 body {
-    background-color: white;
-    color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark grey background */
+    color: white; /* White text */
+    text-align: center; /* Center all text */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #6A0DAD; /* Purple background */
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px; /* Space between links */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Gallery Section */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.art-piece {
+    background-color: #1E1E1E; /* Slightly lighter dark grey */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.art-piece img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.art-piece p {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #6A0DAD; /* Purple background */
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .navbar li {
+        margin: 0 5px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
 }

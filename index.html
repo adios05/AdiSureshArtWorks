@@ -2,35 +2,135 @@
 <html lang="en">
 
 <head>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
-<meta charset="UTF-8">
-<meta http-equiv=“Pragma” content=”no-cache”>
-<meta http-equiv=“Expires” content=”-1″>
-<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
-<meta name "viewport" content = " width = device-width, initial-scale = 1.0">
-<!-- CSS Stylesheets -->
-<link rel="stylesheet" href="css/master.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website for Adi Suresh showcasing a variety of artworks including 2D, 3D, physical, and digital mediums.">
+    <meta name="keywords" content="portfolio, art, 2D art, 3D art, animation, game design">
+    <meta name="author" content="Adi Suresh">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
 
-<title>Portfolio Project</title>
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:title" content="Adi Suresh Portfolio">
+    <meta property="og:description" content="Explore the art and creative works of Adi Suresh, including 2D, 3D art, animation, and game design.">
+    <meta property="og:image" content="path_to_image.jpg"> <!-- Link to an image for preview -->
+    <meta property="og:url" content="http://www.yoursite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Adi Suresh Portfolio">
+    <meta name="twitter:description" content="Explore the art and creative works of Adi Suresh, including 2D, 3D art, animation, and game design.">
+    <meta name="twitter:image" content="path_to_image.jpg"> <!-- Link to an image for preview -->
+    <meta name="twitter:creator" content="@YourTwitterHandle">
+
+    <!-- Cache Settings for the Browser -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
+
+    <title>Adi Suresh Portfolio</title>
+    
+    <style>
+        /* General Body Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #1a1a1a;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #6a0dad;
+            padding: 1em 0;
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-bar li {
+            margin: 0 15px;
+        }
+
+        .nav-bar a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        .nav-bar a:hover {
+            color: #e0e0e0;
+        }
+
+        /* Header */
+        header h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+
+        /* Section Styling */
+        section p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6em;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 30px;
+            background-color: #333;
+            color: #ccc;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-   <h1>Adi Suresh Artworks</h1>
-   <p> 
-    This is a site developed by myself that works as 
-    a portfolio to showcase my artwork. The portfolio 
-    consists of a variety of art mediums including 
-    2D and 3D physical fine art practices as well as 2D and
-    3D digital art like 3D Modeling, Animation, 
-    and Game Design.
-   </p>
+    <!-- Main Content -->
+    <header>
+        <h1>Adi Suresh Artworks</h1>
+    </header>
+    <section>
+        <p>
+            Welcome to my portfolio! This site showcases a variety of my artistic creations, ranging from 2D and 3D physical fine art to 2D and 3D digital works like modeling, animation, and game design. Explore my gallery to see my work and learn more about my artistic journey.
+        </p>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p class="copyright-text">© Copyright 2023 Adi Suresh</p>
+    </footer>
+
+    <script>
+        // JavaScript Placeholder
+        console.log("Welcome to Adi Suresh's Portfolio!");
+    </script>
 </body>
 
-<footer>
-    <p class="copyright-text">© Copyright 2023 _______ </p>
-</footer>
-
-<!-- Our codes -->
-<script src="js/main.js"></script>
+</html>
